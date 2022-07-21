@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".ui.home.HomeActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        style="@style/TextViewStyle"
+        android:layout_marginStart="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:text="Welcome"
+        android:textSize="@dimen/text_size_x_large"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWelcomeText"
+        style="@style/TextViewStyle"
+        android:text=""
+        android:layout_marginStart="@dimen/margin_twenty"
+        android:layout_marginTop="@dimen/margin_ten"
+        android:textSize="@dimen/text_size_x_large"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome"
+        tools:text="Azhar Mahmood!" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_twenty"
+        android:layout_marginEnd="@dimen/margin_ten"
+        android:padding="@dimen/margin_ten"
+        android:src="@drawable/icon_settings"
+        android:tint="@color/text_color_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_fifty"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcomeText">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_ten">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="Door Lock"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/margin_ten">
+
+                <LinearLayout
+                    android:id="@+id/btnLockOpen"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="@dimen/margin_ten">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Lock Open"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_lock_open"
+                        android:tint="@color/white" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/margin_forty"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/btnLockClose"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="@dimen/margin_ten">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Lock Close"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_lock"
+                        android:tint="@color/white" />
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_ten">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:text="Buzzer"
+                android:textSize="@dimen/text_size_large"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/margin_ten">
+
+                <LinearLayout
+                    android:id="@+id/btnBuzzerOn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="@dimen/margin_ten">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Buzzer On"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_icon_buzzer_on"
+                        android:tint="@color/white" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/margin_forty"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:id="@+id/btnBuzzerOff"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="@dimen/margin_ten">
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Buzzer Off"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_icon_buzzer_off"
+                        android:tint="@color/white" />
+
+                </LinearLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <LinearLayout
+            android:id="@+id/btnViewCamera"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/margin_forty"
+            android:background="@drawable/btn_background"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="@dimen/margin_ten">
+
+            <TextView
+                style="@style/TextViewStyle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="View Camera"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_icon_camera"
+                android:tint="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_twenty"
+        android:text="Logout"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

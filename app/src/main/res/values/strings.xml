@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DoorController</string>
+
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone No.</string>
+    <string name="login">login</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="text_do_not_have_account">Don\'t have account? <u> Register Here </u></string>
+    <string name="text_already_have_account">Already have account? <u> Login Here </u></string>
+    <string name="create">Create</string>
+    <string name="display_name">Display name</string>
+    <string name="local_host">Enter Local Host</string>
+
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_name">Display name can not be empty or Display name is too short</string>
+    <string name="invalid_phone">Phone No can not be empty</string>
+    <string name="welcome_to_door_controller">Door Controller</string>
+</resources>
