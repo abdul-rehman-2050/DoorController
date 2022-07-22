@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DoorController</string>
+    <string name="app_name">Door Lock</string>
 
     <string name="login_to_your_account">Login to your account</string>
     <string name="create_a_new_account">Create a new account</string>

@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "169138880857",
-    "firebase_url": "https://doorcontroller-3052f-default-rtdb.firebaseio.com",
-    "project_id": "doorcontroller-3052f",
-    "storage_bucket": "doorcontroller-3052f.appspot.com"
+    "project_number": "81749994560",
+    "firebase_url": "https://doorlock-39da2-default-rtdb.firebaseio.com",
+    "project_id": "doorlock-39da2",
+    "storage_bucket": "doorlock-39da2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:169138880857:android:c67697a0d4f547d2800c48",
+        "mobilesdk_app_id": "1:81749994560:android:089ef2d60185c38d9903a5",
         "android_client_info": {
           "package_name": "com.asta.door.controller"
         }
       },
       "oauth_client": [
         {
-          "client_id": "169138880857-3t38jetk5v7km79re08hlu23vm9001iu.apps.googleusercontent.com",
+          "client_id": "81749994560-1idna08cg48n4641imf63tt0d8g7u28u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBNFIKyLKeMhASX_Xn3HN7INwDLwWw1jwo"
+          "current_key": "AIzaSyATUIQEqzhd8ZzgdNdS1TgOa_qofj15VoA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "169138880857-3t38jetk5v7km79re08hlu23vm9001iu.apps.googleusercontent.com",
+              "client_id": "81749994560-1idna08cg48n4641imf63tt0d8g7u28u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
