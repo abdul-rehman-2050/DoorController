@@ -18,7 +18,7 @@ class DatabaseRepository {
     }
 
     fun updateCloseLock() {
-        firebaseDatabaseService.updateLockValue("0")
+        firebaseDatabaseService.updateLockValue("2")
     }
 
     fun updateOpenBuzzer() {
@@ -26,7 +26,7 @@ class DatabaseRepository {
     }
 
     fun updateCloseBuzzer() {
-        firebaseDatabaseService.updateBuzzerValue("0")
+        firebaseDatabaseService.updateBuzzerValue("2")
     }
 
     fun loadAndObserveUserInfo(
